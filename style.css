@@ -1,0 +1,50 @@
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #383232;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #919090;
+}
+
+#display {
+  width: 405px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  border-radius: 5px;
+  border: none;
+  background-color: #383232;
+  color: white;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+#calc {
+  border-radius: 15px;
+  max-width: 500px;
+  overflow: hidden;
+  background-color: #161515;
+}
+
+
+.operator_button{
+    background-color: #ff9500;
+    color: white;
+}
